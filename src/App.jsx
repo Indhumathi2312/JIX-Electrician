@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainLayouts from "./Layouts/MainLayouts";
 import Home from "./Pages/Home/Index";
 
+
 const App = () => {
   return (
     <>

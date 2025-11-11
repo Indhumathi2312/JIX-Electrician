@@ -12,7 +12,7 @@ const Header = () => {
     { Name: "Services", path: "/services" },
     { Name: "FAQ", path: "/faq" },
     { Name: "Contact", path: "/contact" },
-    { Name: "+1-800-123-4567" },
+   
   ];
   const [Open, setOpen] = useState(false);
   const location = useLocation();
@@ -30,7 +30,7 @@ const Header = () => {
         </div>
 
         {First?.map((items, i) => (
-          <div key={i} className="hidden lg:block">
+          <div key={i} className="hidden lg:block ">
             <div className="flex ">
               <a
                 href={items.path}
@@ -40,11 +40,12 @@ const Header = () => {
               >
                 {items.Name}
               </a>
+              
             </div>
           </div>
-        ))}
+        ))}<h1 className="text-blue-400 hidden lg:block " >+193-123-456-789</h1>
         {/* -----Small screen----- */}
-        <div onClick={Change} className="lg:hidden block text-2xl md:text-4xl text-blue-500">
+        <div onClick={Change} className="lg:hidden items block text-2xl md:text-4xl text-blue-500">
           {Open ? <IoMdClose /> : <BiMenu />}
         </div>
       </div>
