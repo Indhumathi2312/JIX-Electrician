@@ -55,7 +55,7 @@ const HomeFirst = () => {
                 icon="text-lg md:text-xl  "
               />
             </div>
-            <div className=" w-70 lg:w-130 bg-blue-100 relative py-7 lg:py-10">
+            <div className=" w-70 lg:w-130 bg-blue-100 relative py-3 md:py-7 lg:py-10">
               <div className="flex flex-col items-center py-5 space-y-3">
                 <h1 className="text-lg md:text-2xl lg:text-3xl font-bold">
                   Request Callback
@@ -78,7 +78,7 @@ const HomeFirst = () => {
                     <p className="text-red-500 text-sm ">{error.name}</p>
                   )}
                   <input
-                    type="text"
+                    type="email"
                     placeholder="Your Email"
                     name="email"
                     onChange={Mistake}
@@ -89,7 +89,7 @@ const HomeFirst = () => {
                     <p className="text-red-500 text-sm ">{error.email}</p>
                   )}
                   <input
-                    type="text"
+                    type="number"
                     placeholder="Contact No"
                     name="contact"
                     onChange={Mistake}

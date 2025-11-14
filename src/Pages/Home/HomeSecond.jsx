@@ -35,7 +35,7 @@ const HomeSecond = () => {
         <div className="flex  flex-col lg:flex-row gap-10 py-3 md:py-5 lg:py-10">
           <div>
             <img
-              src={H1}
+              src={H1}  
               alt="Image"
               className="w-210 h-50 md:h-150 px-20 lg:px-10"
             />
