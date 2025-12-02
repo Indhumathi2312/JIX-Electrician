@@ -1,6 +1,6 @@
 import React from "react";
 import Question from "../../../Components/Question/Index";
-import F1 from "../../../assets/Service1.jpg";
+import F1 from "../../../assets/Service1.webp";
 
 const FAQSecond = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import F1 from "../../assets/F2.jpg";
+import F1 from "../../assets/F2.webp";
 import Background from "../../Components/Background/Index";
 import FAQSecond from "./FAQSecond/Index";
 import HomeSix from "../../Components/HomeSix/Index";

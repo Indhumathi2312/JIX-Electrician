@@ -1,7 +1,7 @@
 import React from "react";
-import H1 from "../../assets/Home5.jpg";
+import H1 from "../../assets/Home5.webp";
 import H2 from "../../assets/Home7.png";
-import H3 from "../../assets/Home6.jpg";
+import H3 from "../../assets/Home6.webp";
 import Button from "../Button/Index";
 
 const HomeThird = () => {

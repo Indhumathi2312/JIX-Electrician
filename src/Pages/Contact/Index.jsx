@@ -1,6 +1,6 @@
 import React from "react";
 import Background from "../../Components/Background/Index";
-import C1 from "../../assets/Home9.jpg";
+import C1 from "../../assets/Home9.webp";
 import ContactSecond from "./ContactSecond/Index";
 import HomeSix from "../../Components/HomeSix/Index";
 

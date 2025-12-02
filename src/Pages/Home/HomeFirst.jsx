@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "../../Components/Button/Index";
 import { GiWhiteBook } from "react-icons/gi";
-import H1 from "../../assets/Home2.jpg";
+import H1 from "../../assets/Home2.webp";
 
 const HomeFirst = () => {
   const [form, setForm] = useState({
@@ -29,6 +29,8 @@ const HomeFirst = () => {
     setError(newError);
     if (Object.keys(newError).length === 0) {
       console.log("Form data Submitted:", form);
+      alert("Form data Submitted:", form);
+
     }
   };
   return (

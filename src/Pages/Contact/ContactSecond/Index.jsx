@@ -1,5 +1,5 @@
 import React from "react";
-import C1 from "../../../assets/Home9.jpg";
+import C1 from "../../../assets/Home9.webp";
 
 const ContactSecond = () => {
   const List = [

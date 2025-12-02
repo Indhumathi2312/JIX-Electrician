@@ -1,7 +1,7 @@
 import React from "react";
-import H1 from "../../../assets/Home6.jpg";
-import H2 from "../../../assets/Home8.jpg";
-import H3 from "../../../assets/Home10.jpg";
+import H1 from "../../../assets/Home6.webp";
+import H2 from "../../../assets/Home8.webp";
+import H3 from "../../../assets/Home10.webp";
 import Button from "../../../Components/Button/Index";
 import { FaCommentDollar, FaHeadset, FaShieldAlt } from "react-icons/fa";
 

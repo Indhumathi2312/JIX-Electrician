@@ -4,7 +4,7 @@ import AboutSecond from "./AboutSecond/Index";
 import AboutThird from "./AboutThird/Index";
 import AboutFour from "./AboutFour/Index";
 import HomeSix from "../../Components/HomeSix/Index";
-import A1 from "../../assets/Home11.jpg";
+import A1 from "../../assets/Home11.webp";
 
 const About = () => {
   return (

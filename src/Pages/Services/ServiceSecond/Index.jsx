@@ -1,8 +1,8 @@
 import React from "react";
-import S1 from "../../../assets/Service1.jpg";
+import S1 from "../../../assets/Service1.webp";
 import { RiArrowDropRightLine } from "react-icons/ri";
-import S2 from "../../../assets/Home9.jpg";
-import S3 from "../../../assets/Home8.jpg";
+import S2 from "../../../assets/Home9.webp";
+import S3 from "../../../assets/Home8.webp";
 
 const ServiceSecond = () => {
   const point = [

@@ -24,6 +24,7 @@ const Question = ({ Ques, children }) => {
             </p>
           )}
         </div>
+        
       </div>
     </>
   );

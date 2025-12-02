@@ -1,5 +1,5 @@
 import React from "react";
-import H1 from "../../assets/Home3.jpg";
+import H1 from "../../assets/Home3.webp";
 import { RiArrowDropRightLine } from "react-icons/ri";
 import Button from "../../Components/Button/Index";
 
